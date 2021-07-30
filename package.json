@@ -1,0 +1,37 @@
+{
+  "name": "crowdfunding",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-carousel": "^1.0.2",
+    "@openzeppelin/contracts": "^2.4.0",
+    "next-routes": "^1.4.2",
+    "semantic-ui-react": "^0.88.1",
+    "vue": "^2.6.10",
+    "vue-glide-js": "^1.3.14",
+    "vuetify": "^1.3.0",
+    "web3": "1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.0.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "description": "A simple Ethereum-based crowdfunding decentralized application (dapp) where you can start and fund crowdfunding projects. It uses Ether, a cryptocurrency, as the medium of exchange (currency).",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
+}
